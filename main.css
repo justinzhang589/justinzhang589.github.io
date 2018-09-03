@@ -37,6 +37,7 @@ body {
 	/*font-family: Chalkduster, fantasy;*/
 	/*font-family: Arial, Helvetica, sans-serif*/
 	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+	position: relative;
 }
 ol, ul {
 	list-style: none;
@@ -60,7 +61,7 @@ table {
 	width: 99.4vw;
 	align-items: center;
 
-	border: 0.3vh solid #66fcf1;
+	border: 0.3vh solid #99c5dd;
 	/*padding: 0vh 5vw*/
 	/*border-top: 3vh solid rgba(255,255,255,.8);
 	border-bottom: 3vh solid rgba(255,255,255,.8);*/
@@ -82,7 +83,7 @@ table {
 
 	
 */
-	border-right:2px solid #66fcf1;
+	border-right:2px solid #99c5dd;
 	}
 
 .right{
@@ -108,12 +109,26 @@ table {
 }
 
 .contact-title{
-	color: #66fcf1;
+	color: #99c5dd;
 	padding: 3vh 0vw;
 /*	border: 2px solid #66fcf1;
 */	margin-left: auto;
 	margin-right: auto;
 	width: 60%;
+}
+
+.logo {
+    position: absolute;
+    top: 5vh;
+    left: 5vh;
+}
+
+.tag {
+    position: absolute;
+    bottom: 4vh;
+    left: 4vh;
+    color: #99c5dd;
+    font-size: 2em;
 }
 
 p{
@@ -124,5 +139,5 @@ p{
 header{
    padding: 2vh 1vw;
    font-size: 2.5em;
-   color: #66fcf1;
+   color: #99c5dd;
 }
